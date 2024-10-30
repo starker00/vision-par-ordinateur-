@@ -1,0 +1,38 @@
+D'accord ! Voici une description mise à jour sans l’utilisation de Raspberry Pi, en utilisant uniquement Arduino pour gérer les modes de fonctionnement et une caméra compatible pour le traitement de l’image.
+
+---
+
+Système de Détection d'Objets Dangereux et de Reconnaissance Faciale avec Arduino
+
+Ce projet propose un **système de sécurité alimenté par Arduino** pour assurer la sûreté dans les lieux publics. Il utilise une caméra connectée pour détecter des objets dangereux (armes à feu, couteaux) et passer en mode reconnaissance faciale pour identifier des personnes. Le système est conçu pour améliorer la sécurité en détectant automatiquement les menaces et en collectant des informations sur les personnes identifiées.
+
+---
+
+Fonctionnalités
+
+- Détection d’objets dangereux: Identification d'objets suspects (comme des armes) à partir d’images capturées par la caméra.
+- Reconnaissance faciale** : Passage en mode reconnaissance faciale pour détecter les visages et potentiellement effectuer des recherches d’informations sur internet.
+- Contrôle par Arduino** : Utilisation d’Arduino pour passer d’un mode de détection à un autre, en fonction des besoins.
+- Alertes de sécurité : En cas de détection d’objets dangereux, le système active une alerte (buzzer ou LED).
+
+---
+
+ Matériel Utilisé
+
+- Arduino (UNO ou Nano) : Pour contrôler les changements de mode et gérer les alertes.
+- Caméra compatible Arduino: Capable de capturer des images pour l’analyse.
+- Buzzer ou LED : Utilisés pour alerter en cas de détection d’un objet dangereux.
+- Boutons ou interrupteurs : Permettent de passer entre les modes “détection d’objets” et “reconnaissance faciale”.
+
+---
+
+ Objectifs du Projet
+
+- Renforcer la sécurité dans les lieux publics en détectant automatiquement les objets dangereux.
+- Fournir un système simple et accessible, contrôlé par Arduino, permettant une détection et une surveillance de base avec peu de code.
+- Utiliser des modèles de détection pré-entrainés pour simplifier le traitement d’images et la reconnaissance faciale.
+
+---
+
+
+--- 
